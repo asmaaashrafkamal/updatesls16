@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>User Information</title>
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="../../vendors/feather/feather.css">
+  <link rel="stylesheet" href="../../vendors/ti-icons/css/themify-icons.css">
+  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <link rel="stylesheet" href="../../css/vertical-layout-light/style.css">
+  <!-- endinject -->
+  <link rel="shortcut icon" href="../../images/favicon.png" />
+  <style>
+     .circle {
+      border-radius: 50%;
+      width: 35px;
+      height: 25px;
+      background: #fff;
+      border: 3px solid red;
+      color: red;
+      text-align: center;
+      font: 16px Arial, sans-serif;
+    }
+    .th1 {
+     
+      color: gold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-scroller">
+    <!-- partial:../../partials/_navbar.html -->
+    <nav class="navbar col-lg-12 fixed-top d-flex flex-row"  style="height: 12.5%;">
+      <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
+        <img src="../image/sls.jpg"  alt="logo" width="100" height="75" />
+
+      </div>
+      <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
+        <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+          <span class="icon-menu"></span>
+        </button>
+        <ul class="navbar-nav navbar-nav-right">
+         
+        </ul>
+       
+        <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
+          <span class="icon-menu"></span>
+        </button>
+       
+      </div>
+    </nav>
+    <!-- partial -->
+    <div class="container-fluid page-body-wrapper" style="padding-top:90px;">
+      <!-- partial:partials/_settings-panel.html -->
+      <div class="theme-setting-wrapper">
+        <div id="settings-trigger"><i class="ti-settings"></i></div>
+        <div id="theme-settings" class="settings-panel">
+          <i class="settings-close ti-close"></i>
+          <p class="settings-heading">SIDEBAR SKINS</p>
+          <div class="sidebar-bg-options selected" id="sidebar-light-theme"><div class="img-ss rounded-circle bg-light border mr-3"></div>Light</div>
+          <div class="sidebar-bg-options" id="sidebar-dark-theme"><div class="img-ss rounded-circle bg-dark border mr-3"></div>Dark</div>
+          <p class="settings-heading mt-2">HEADER SKINS</p>
+          <div class="color-tiles mx-0 px-4">
+            <div class="tiles success"></div>
+            <div class="tiles warning"></div>
+            <div class="tiles danger"></div>
+            <div class="tiles info"></div>
+            <div class="tiles dark"></div>
+            <div class="tiles default"></div>
+          </div>
+        </div>
+      </div>
+      <div id="right-sidebar" class="settings-panel">
+       
+        <div class="tab-content" id="setting-content">
+          <div class="tab-pane fade show active scroll-wrapper" id="todo-section" role="tabpanel" aria-labelledby="todo-section">           
+          </div>
+          <!-- To do section tab ends -->
+          <div class="tab-pane fade" id="chats-section" role="tabpanel" aria-labelledby="chats-section">
+            <div class="d-flex align-items-center justify-content-between border-bottom">
+            </div>
+            
+              
+          </div>
+          <!-- chat tab ends -->
+        </div>
+      </div>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- partial -->
+      <!-- partial:partials/_sidebar.html -->
+      <nav class="sidebar sidebar-offcanvas" id="sidebar">
+        <ul class="nav">
+          <li class="nav-item ">
+            <a class="nav-link" href="../../index.html?login=success">
+              <i class="icon-grid menu-icon" style="font-size:20px" ></i>
+              <span class="menu-title" >Dashboard</span>
+            </a>
+          </li>
+         
+          <li class="nav-item">
+            <a class="nav-link" href="./all_pending.html">
+              <i class="fa fa-user-plus" style="font-size:20px"></i>
+              <span class="menu-title" style="padding-left:5%;">All Pending Users</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pending_seller.html">
+              <i class="fa fa-server" style="font-size:20px"></i>
+              <span class="menu-title" style="padding-left:5%;">All Pending Sellers</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./changeadminintoseller.html">
+              <i class="fa fa-edit "  style="font-size:20px"></i>
+              <span class="menu-title" style="padding-left:5%;">Change Admin Into Seller</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./changesellerintouser.html">
+              <i class="fa fa-edit "  style="font-size:20px"></i>
+              <span class="menu-title" style="padding-left:5%;">Change Seller Into User</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./changeusertoadmin.html">
+              <i class="fa fa-edit "  style="font-size:20px"></i>
+              <span class="menu-title" style="padding-left:5%;">Change User Into Admin</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./changesellertoadmin.html">
+              <i class="fa fa-edit"  style="font-size:20px"></i>
+              <span class="menu-title" style="padding-left:5%;">Change Seller Into Admin</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./live.html">
+              <i class="fa fa-file-movie-o"  style="font-size:20px"></i>
+              <span class="menu-title" style="padding-left:5%;">Seller In Live</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./show_superAdmin.html">
+            <i class="fa fa-users" style="font-size:20px"></i>
+            <span class="menu-title" style="padding-left:5%;">Show All SuperAdmin</span>
+          </a>
+        </li>
+          <li class="nav-item">
+              <a class="nav-link" href="./show_all_users.html">
+              <i class="fa fa-users" style="font-size:20px"></i>
+              <span class="menu-title" style="padding-left:5%;">Show All Sellers</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./show_all_seller.html">
+              <i class="fa fa-vcard-o" style="font-size:20px"></i>
+              <span class="menu-title" style="padding-left:5%;">Show All Users</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./post.html">
+              <i class="fa fa-times" style="font-size:20px"></i>
+              <span class="menu-title" style="padding-left:5%;">Reported Posts</span>
+              <div class="circle" id="report"></div>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./renue.html">
+              <i class="fa fa-credit-card"  style="font-size:20px"></i>
+              <span class="menu-title" style="padding-left:5%;">Total Revenue</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./pay -to-app.html">
+                <i class="fa fa-credit-card" style="font-size:20px"></i>
+                <span class="menu-title" style="padding-left:5%;">Pay To App</span>
+            </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="./all_confirmed.html">
+            <i class="	fa fa-user-times" style="font-size:20px"></i>
+            <span class="menu-title" style="padding-left:5%;">Delete Users</span>
+          </a>
+        </li>
+          <br>
+          <li>
+            <div style="padding-left: 5%;"><button type="submit" style="background-color: darkblue;color: white;width:50%;" class="btn btn"  id="logout">logout</button>
+            </div>
+          </li>
+          <script>
+            document.getElementById("logout").addEventListener("click",e=>{
+              window.location.href = "../../Login/login.html"
+            })
+          </script>
+        </ul>
+      </nav>
+      <!-- partial -->
+      <div class="main-panel">
+        <div class="content-wrapper">
+          <div class="row">
+            
+            <div class="col-lg-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title" style=" text-shadow: 2px 2px gold;">User Info</h4>
+  
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                         
+                          <th class="th1">
+                            orderNo
+                          </th>
+                          <th class="th1">
+                            orderState
+                          </th>
+                          <th class="th1">
+                            orderTotalPrice
+                          </th>
+                       
+                          <th class="th1">
+                            Change State
+                           </th> 
+                        </tr>
+                      </thead>
+                      <tbody id="tbody1">
+                       
+                       
+                      </tbody>
+                    </table>
+                   
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+      </div>
+      <!-- main-panel ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- plugins:js -->
+  <script src="../../vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="../../js/off-canvas.js"></script>
+  <script src="../../js/hoverable-collapse.js"></script>
+  <script src="../../js/template.js"></script>
+  <script src="../../js/settings.js"></script>
+  <script src="../../js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <!-- End custom js for this page-->
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBH1uRWX-36sfr1pD2rg7ofnN80h7fMLv4",
+    authDomain: "slsstreamandroid.firebaseapp.com",
+    databaseURL: "https://slsstreamandroid-default-rtdb.firebaseio.com",
+    projectId: "slsstreamandroid",
+    storageBucket: "slsstreamandroid.appspot.com",
+    messagingSenderId: "829037887407",
+    appId: "1:829037887407:web:b067a81ea944ecd14f395a",
+    measurementId: "G-NQ8NSH0P4C"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<script src="get_user_info.js"></script>
+<script src="./reportedPostNo.js"></script>
+
+</body>
+
+</html>
